@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Gjensidige Hand OT";
+  src: url("GjensidigeHandOT.woff2") format("woff2"),
+    url("GjensidigeHandOT.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gjensidige Brown Regular";
+  src: url("GjenBrownOT-Regular.woff2") format("woff2"),
+    url("GjenBrownOT-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gjensidige Brown Bold";
+  src: url("GjenBrownOT-Bold.woff2") format("woff2"),
+    url("GjenBrownOT-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gjensidige Hand CE";
+  src: url("GjensidigeHandCE.woff2") format("woff2"),
+    url("GjensidigeHandCE.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gjensidige Brown Light";
+  src: url("GjenBrownOT-Light.woff2") format("woff2"),
+    url("GjenBrownOT-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gjensidige Brown OT Alternate";
+  src: url("GjenBrownOT-BoldAlt.woff2") format("woff2"),
+    url("GjenBrownOT-BoldAlt.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  font-family: "Gjensidige Brown OT", sans-serif;
+  font-weight: 300;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: "Gjensidige Brown Bold", sans-serif;
+  font-weight: 700;
+  line-height: 1.3;
+}
+p {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: "Gjensidige Brown Light", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 1rem;
+  word-wrap: break-word;
+}
+.paragraph-bold {
+  font-weight: 700;
+}
