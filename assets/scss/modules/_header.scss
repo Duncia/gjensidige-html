@@ -1,0 +1,32 @@
+.header {
+  background-color: $color-blue-bg;
+  color: $color-white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  &__right {
+    display: flex;
+    align-items: center;
+    .header--logo {
+      max-width: 11.25rem;
+    }
+    &-nav {
+      ul {
+        display: flex;
+        li {
+          list-style: none;
+          margin-left: 2.5rem;
+          a {
+            text-decoration: none;
+            letter-spacing: 1px;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+          }
+          .right-nav--active {
+            color: $color-yellow;
+          }
+        }
+      }
+    }
+  }
+}
